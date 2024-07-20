@@ -38,6 +38,6 @@ Once you're done with the installation, test it out and enjoy!
 
 For any questions, please create a new issue at the top.
 
-In the issue please explain what's happening / the issue that you're experiencing, aswell as your installation method.
+In the issue please explain what's happening / the issue that you're experiencing.
 
-Providing screenshots of the output of the PowerShell helps, as long as it's not just "True".
+In the labels for your issue, please choose installation method aswell as operating system.
