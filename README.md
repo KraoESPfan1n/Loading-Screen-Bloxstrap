@@ -34,7 +34,10 @@ For the people that just don't like it the easy way...
 
 <!-- End of README -->
 
-And then test it out and enjoy!
-For any questions, please create a new issue.
-And please explain exactly what is happening / the issue that you're experiencing, aswell as your installation method.
-(Providing screenshots of the output of the PowerShell helps massively; as long as it's not just saying "True")
+Once you're done with the installation, test it out and enjoy!
+
+For any questions, please create a new issue at the top.
+
+In the issue please explain what's happening / the issue that you're experiencing, aswell as your installation method.
+
+Providing screenshots of the output of the PowerShell helps, as long as it's not just "True".
