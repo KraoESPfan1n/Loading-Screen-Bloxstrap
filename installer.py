@@ -7,6 +7,8 @@ import subprocess
 import locale
 import webbrowser
 import urllib.request
+import io
+from PIL import Image, ImageTk
 
 # Función para obtener el idioma del sistema
 def get_system_language():
@@ -27,8 +29,8 @@ def check_powershell_execution():
 # Diccionario de traducciones
 translations = {
     "en_US": {
-        "title": "Loader Screen Installer",
-        "welcome": "Welcome to Loader Screen Installer",
+        "title": "Loader Screen  Installer",
+        "welcome": "Welcome to Loader Screen  Installer",
         "choose": "What would you like to do?",
         "install": "Install/Change",
         "uninstall": "Uninstall",
@@ -49,8 +51,8 @@ translations = {
         "install_bloxstrap": "Install Bloxstrap"
     },
     "es_ES": {
-        "title": "Instalador de Loader Screen ",
-        "welcome": "Bienvenido al instalador de Loader Screen ",
+        "title": "Instalador de Loader Screen  ",
+        "welcome": "Bienvenido al instalador de Loader Screen  ",
         "choose": "¿Qué deseas hacer?",
         "install": "Instalar/Cambiar",
         "uninstall": "Desinstalar",
@@ -254,12 +256,14 @@ def instalar_cambiar(video_path, vlc_path, log_file):
     else:
         log_file.write(f"[{datetime.now()}] Settings.json already contains the integration or couldn't be modified\n")
 
-# Descargar y guardar el logo de Bloxstrap
-def descargar_logo(url, save_path):
+# Descargar y guardar el logo temporalmente usando io
+def descargar_logo_temporal(url):
     try:
-        urllib.request.urlretrieve(url, save_path)
+        with urllib.request.urlopen(url) as response:
+            return io.BytesIO(response.read())
     except Exception as e:
         print(f"Error downloading logo: {e}")
+        return None
 
 # Clase para la interfaz gráfica
 class InstallerGUI:
@@ -268,15 +272,14 @@ class InstallerGUI:
         master.title(lang["title"])
         master.geometry("400x300")
 
-        # Descargar el logo de Bloxstrap
+        # Descargar el logo de Bloxstrap temporalmente
         logo_url = "https://raw.githubusercontent.com/pizzaboxer/bloxstrap/main/Images/Bloxstrap.png"
-        logo_path = os.path.expanduser("~/AppData/Local/Bloxstrap/Bloxstrap.png")
-        descargar_logo(logo_url, logo_path)
+        logo_stream = descargar_logo_temporal(logo_url)
         
-        try:
-            master.iconphoto(True, tk.PhotoImage(file=logo_path))
-        except Exception as e:
-            print(f"Error setting icon: {e}")
+        if logo_stream:
+            logo_image = Image.open(logo_stream)
+            self.logo_photo = ImageTk.PhotoImage(logo_image)
+            master.iconphoto(True, self.logo_photo)
         
         style = ttk.Style()
         style.theme_use('clam')
