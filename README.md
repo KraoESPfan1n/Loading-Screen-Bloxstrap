@@ -2,6 +2,7 @@
 
 Requirements:
 - Windows 10/11
+- [Python for the installer](https://www.python.org/downloads/)
 - [VLC Media Player](https://www.videolan.org/vlc/)
 - [Bloxstrap (obviously)](https://github.com/pizzaboxer/bloxstrap)
 ---
