@@ -3,6 +3,7 @@
 Requirements:
 - Windows 10/11
 - [VLC Media Player](https://www.videolan.org/vlc/)
+- [Bloxstrap(obviously)](https://github.com/pizzaboxer/bloxstrap)
 ---
 <!-- Extra infos for people using the installer -->
 
