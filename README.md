@@ -14,7 +14,7 @@
 
 Requirements:
 - Windows 10/11
-- [PowerShell](https://docs.microsoft.com/en-us/powershell/)
+- [PowerShell](https://docs.microsoft.com/en-us/powershell/) (usually comes by default on windows)
 - [Python V3.x for the installer](https://www.python.org/downloads/)
 - [VLC Media Player](https://www.videolan.org/vlc/)
 - [Bloxstrap (obviously)](https://github.com/pizzaboxer/bloxstrap)
