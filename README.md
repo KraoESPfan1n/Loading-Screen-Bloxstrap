@@ -3,7 +3,7 @@
 </p>
 
 [![License](https://img.shields.io/badge/License-MIT-lime)](./LICENSE)
-[![Version](https://img.shields.io/badge/Version-1.0-purple)]()
+[![Version](https://img.shields.io/badge/Version-1.0-purple)](https://github.com/KraoESPfan1n/Loading-Screen-Bloxstrap/releases/tag/Release)
 [![Stealing Intellectual Property](https://img.shields.io/badge/Based_on-Bloxstrap-591ac7)](https://github.com/pizzaboxer/bloxstrap)
 [![Discord](https://img.shields.io/badge/Discord-Original_thread-blue)](https://discord.com/channels/1099468797410283540/1260503953234329662)
 [![Author](https://img.shields.io/badge/Author-Krao-darkblue)](https://github.com/KraoESPfan1n)
