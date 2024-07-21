@@ -2,14 +2,58 @@
 
 Requirements:
 - Windows 10/11
-- [Python for the installer](https://www.python.org/downloads/)
+- [Python V3.x for the installer](https://www.python.org/downloads/)
 **only if you gona use the installer**
 - [VLC Media Player](https://www.videolan.org/vlc/)
 - [Bloxstrap (obviously)](https://github.com/pizzaboxer/bloxstrap)
 ---
-<!-- Extra infos for people using the installer -->
+<details>
+<summary>Loader Screen Python Installer - User Guide</summary>
 
+## Steps to use installer.py
 
+1. **Preparation**
+   - Make sure you have the `installer.py` file on your computer.
+   - Have a video file ready that you want to use as a loading screen.
+
+2. **Running the script**
+   - Open a terminal or command prompt.
+   - Navigate to the directory where `installer.py` is located.
+   - Run the script with the command:
+     ```
+     python installer.py
+     ```
+
+3. **Using the graphical interface**
+   - A window titled "Loader Screen Installer" will open.
+   - You'll see three main options:
+     - Install/Change
+     - Uninstall
+     - Cancel
+
+4. **Installing or changing the loading screen**
+   - Click on "Install/Change".
+   - Select the video file you want to use as a loading screen.
+   - If VLC is not installed, you'll be given the option to install it or manually select its location.
+
+5. **Uninstalling the loading screen**
+   - If you want to remove the custom loading screen, click on "Uninstall".
+
+6. **Canceling the operation**
+   - If you decide not to perform any action, you can click on "Cancel" or close the window.
+
+7. **Reviewing the logs**
+   - After each operation, a window with the installation logs will be displayed.
+   - Review this information to ensure everything has been done correctly.
+
+8. **Finishing**
+   - Close the log window to end the process.
+
+## Additional notes
+
+- The script will automatically detect your system language and display the interface in English or Spanish accordingly.
+- If you encounter any issues, check the logs for more information about what might have gone wrong.
+- Any error that the console presents, you can report in the repository
 ---
 <!-- Manual installation guide -->
 <details>
