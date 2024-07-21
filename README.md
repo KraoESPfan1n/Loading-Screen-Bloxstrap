@@ -10,7 +10,7 @@ Requirements:
 <details>
 <summary>Loader Screen Python Installer - User Guide</summary>
 
-## Steps to use installer.py
+Steps to use installer.py
 
 1. **Preparation**
    - Make sure you have the `installer.py` file on your computer.
