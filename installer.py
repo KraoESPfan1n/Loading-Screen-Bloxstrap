@@ -100,7 +100,7 @@ translations = {
 system_language = get_system_language()
 if system_language.startswith("es"):
     lang = translations["es_ES"]
-else if system_language.startswith("de"):
+elif system_language.startswith("de"):
     lang = translations["de_DE"]
 else:
     lang = translations["en_US"]
