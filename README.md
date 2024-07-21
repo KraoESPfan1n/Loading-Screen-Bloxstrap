@@ -3,18 +3,17 @@
 Requirements:
 - Windows 10/11
 - [Python V3.x for the installer](https://www.python.org/downloads/)
-**only if you gona use the installer**
 - [VLC Media Player](https://www.videolan.org/vlc/)
 - [Bloxstrap (obviously)](https://github.com/pizzaboxer/bloxstrap)
 ---
 <details>
-<summary>Loader Screen Python Installer - User Guide</summary>
+<summary>Python Installer User Guide</summary>
 
 ## Required Libraries
 
 Before running the script, ensure you have the necessary libraries installed. Use the following command to install them if they are not already available:
 
-```bash
+```
 pip install pillow
 ```
 
@@ -22,8 +21,7 @@ pip install pillow
 
 ### Preparation
 
-1. Ensure you have the `installer.py` file on your computer.
-2. Have a video file ready that you want to use as a loading screen.
+- Ensure you have the `installer.py` file on your computer.- Have a video file ready that you want to use as a loading screen.
 
 ### Running the Script
 
@@ -34,44 +32,26 @@ pip install pillow
     python installer.py
     ```
 
-### Using the Graphical Interface
-
-1. A window titled "Loader Screen Installer" will open.
-2. You will see three main options:
-    1. **Install/Change**
-    2. **Uninstall**
-    3. **Cancel**
-
 ### Installing or Changing the Loading Screen
 
 1. Click on **Install/Change**.
 2. Select the video file you want to use as a loading screen.
-3. If VLC is not installed, you will be given the option to install it or manually select its location.
-
-### Uninstalling the Loading Screen
-
-1. If you want to remove the custom loading screen, click on **Uninstall**.
-
-### Canceling the Operation
-
-1. If you decide not to perform any action, you can click on **Cancel** or close the window.
+3. If VLC is not found, you will be given the option to install it or manually select its location.
 
 ### Reviewing the Logs
 
 1. After each operation, a window with the installation logs will be displayed.
 2. Review this information to ensure everything has been done correctly.
 
-### Finishing
-
-1. Close the log window to end the process.
-
 ## Additional Notes
 
-- The script will automatically detect your system language and display the interface in English or Spanish accordingly.
+- The script currents supports English, Spanish and German.
 - If you encounter any issues, check the logs for more information about what might have gone wrong.
 - Any error that the console presents can be reported in the repository.
 
 </details>
+
+---
 <!-- Manual installation guide -->
 <details>
 <summary>Manual installation guide</summary>
