@@ -2,6 +2,14 @@
     <img src="https://i.ibb.co/bgsKbPF/image.png" width="640" height="360">
 </p>
 
+[![License](https://img.shields.io/badge/License-MIT-lime)](./LICENSE)
+[![Version](https://img.shields.io/badge/Version-1.0-purple)]()
+[![Stealing Intellectual Property](https://img.shields.io/badge/Based_on-Bloxstrap-591ac7)](https://github.com/pizzaboxer/bloxstrap)
+[![Discord](https://img.shields.io/badge/Discord-Original_thread-blue)](https://discord.com/channels/1099468797410283540/1260503953234329662)
+[![Author](https://img.shields.io/badge/Author-Krao-darkblue)](https://github.com/KraoESPfan1n)
+[![Contributor](https://img.shields.io/badge/Contributor-HxLL-darkred)](https://github.com/hxll-f)
+[![Extra](https://img.shields.io/badge/I_am-_very_tired-black)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
 # Loading-Screen-Bloxstrap
 
 Requirements:
