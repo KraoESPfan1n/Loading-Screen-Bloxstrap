@@ -1,4 +1,4 @@
-<img src="https://media.discordapp.net/attachments/1260642405695361066/1264387411060719656/image.png"/>
+<img src="https://i.ibb.co/bgsKbPF/image.png">
 # Loading-Screen-Bloxstrap
 
 Requirements:
