@@ -1,4 +1,4 @@
-![Texto alternativo](https://imgur.com/a/7YCKxBG)
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/7YCKxBG" data-context="false" ><a href="//imgur.com/a/7YCKxBG"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 # Loading-Screen-Bloxstrap
 
 Requirements:
