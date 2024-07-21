@@ -72,7 +72,6 @@ pip install pillow
 - Any error that the console presents can be reported in the repository.
 
 </details>
----
 <!-- Manual installation guide -->
 <details>
 <summary>Manual installation guide</summary>
