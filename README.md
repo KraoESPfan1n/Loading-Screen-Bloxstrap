@@ -1,4 +1,4 @@
-<img src="https://imgur.com/a/7YCKxBG"/> 
+![Texto alternativo](https://imgur.com/a/7YCKxBG)
 # Loading-Screen-Bloxstrap
 
 Requirements:
