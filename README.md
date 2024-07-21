@@ -10,50 +10,68 @@ Requirements:
 <details>
 <summary>Loader Screen Python Installer - User Guide</summary>
 
-Steps to use installer.py
+## Required Libraries
 
-1. **Preparation**
-   - Make sure you have the `installer.py` file on your computer.
-   - Have a video file ready that you want to use as a loading screen.
+Before running the script, ensure you have the necessary libraries installed. Use the following command to install them if they are not already available:
 
-2. **Running the script**
-   - Open a terminal or command prompt.
-   - Navigate to the directory where `installer.py` is located.
-   - Run the script with the command:
-     ```
-     python installer.py
-     ```
+```bash
+pip install pillow
+```
 
-3. **Using the graphical interface**
-   - A window titled "Loader Screen Installer" will open.
-   - You'll see three main options:
-     - Install/Change
-     - Uninstall
-     - Cancel
+## Steps to use `installer.py`
 
-4. **Installing or changing the loading screen**
-   - Click on "Install/Change".
-   - Select the video file you want to use as a loading screen.
-   - If VLC is not installed, you'll be given the option to install it or manually select its location.
+### Preparation
 
-5. **Uninstalling the loading screen**
-   - If you want to remove the custom loading screen, click on "Uninstall".
+1. Ensure you have the `installer.py` file on your computer.
+2. Have a video file ready that you want to use as a loading screen.
 
-6. **Canceling the operation**
-   - If you decide not to perform any action, you can click on "Cancel" or close the window.
+### Running the Script
 
-7. **Reviewing the logs**
-   - After each operation, a window with the installation logs will be displayed.
-   - Review this information to ensure everything has been done correctly.
+1. Open a terminal or command prompt.
+2. Navigate to the directory where `installer.py` is located.
+3. Run the script with the command:
+    ```bash
+    python installer.py
+    ```
 
-8. **Finishing**
-   - Close the log window to end the process.
+### Using the Graphical Interface
 
-## Additional notes
+1. A window titled "Loader Screen Installer" will open.
+2. You will see three main options:
+    1. **Install/Change**
+    2. **Uninstall**
+    3. **Cancel**
+
+### Installing or Changing the Loading Screen
+
+1. Click on **Install/Change**.
+2. Select the video file you want to use as a loading screen.
+3. If VLC is not installed, you will be given the option to install it or manually select its location.
+
+### Uninstalling the Loading Screen
+
+1. If you want to remove the custom loading screen, click on **Uninstall**.
+
+### Canceling the Operation
+
+1. If you decide not to perform any action, you can click on **Cancel** or close the window.
+
+### Reviewing the Logs
+
+1. After each operation, a window with the installation logs will be displayed.
+2. Review this information to ensure everything has been done correctly.
+
+### Finishing
+
+1. Close the log window to end the process.
+
+## Additional Notes
 
 - The script will automatically detect your system language and display the interface in English or Spanish accordingly.
 - If you encounter any issues, check the logs for more information about what might have gone wrong.
-- Any error that the console presents, you can report in the repository
+- Any error that the console presents can be reported in the repository.
+
+</details>
 ---
 <!-- Manual installation guide -->
 <details>
