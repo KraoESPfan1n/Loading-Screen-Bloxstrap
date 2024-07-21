@@ -26,11 +26,12 @@ Requirements:
 [![Python](https://img.shields.io/badge/Python-latest-Yellow)](https://www.python.org/downloads/)
 [![VLC](https://img.shields.io/badge/VLC-latest-orange)](https://www.videolan.org/vlc/index.html)
 [![Bloxstrap](https://img.shields.io/badge/Bloxtrap-latest-591ac7)](https://github.com/pizzaboxer/bloxstrap)
-
 ---
+> [!CAUTION]
+> The uninstall button will NOT uninstall python, VLC, PowerShell, Bloxstrap, it will only uninstall the mod.
 <details>
 <summary>Python Installer User Guide</summary>
-
+    
 ## Required Libraries
 
 Before running the script, ensure you have the necessary libraries installed. Use the following command to install them if they are not already available:
