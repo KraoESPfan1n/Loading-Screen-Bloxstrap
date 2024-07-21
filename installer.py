@@ -71,6 +71,28 @@ translations = {
         "log_title": "Registro de Cambios",
         "bloxstrap_not_found": "No se encontró Bloxstrap. Por favor, instala Bloxstrap.",
         "install_bloxstrap": "Instalar Bloxstrap"
+    },
+    "de_DE": {
+        "title": "Ladebildschirm-Installer",
+        "welcome": "Wilkommen im Ladebildschirm-installer ",
+        "choose": "Was würdest du gerne tun?",
+        "install": "Installieren", 
+        "uninstall": "Entfernen",
+        "cancel": "Abbrechen",
+        "select_video": "Bitte wähl dein Video aus",
+        "select_vlc": "Wähl VLC.exe aus",
+        "install_vlc": "Kein VLC gefunden, möchtest du VLC manuell auswählen oder installieren?",
+        "select_or_install_vlc": "Wähl VLC.exe aus oder installiere VLC",
+        "select": "Auswählen",
+        "install": "Installieren",
+        "no_video": "Kein Video ausgewählt",
+        "invalid_format": "Das ausgewählte Video hat ein invalides Format.",
+        "no_vlc": "VLC wurde nicht gefunden, bitte wähl VLC.exe aus.",
+        "installation_complete": "Installation abgeschlossen.",
+        "uninstallation_complete": "Erfolgreich deinstalliert.",
+        "log_title": "Änderungen",
+        "bloxstrap_not_found": "Bloxstrap wurde nicht gefunden. Installier Bloxstrap nochmal und versuche erneut.",
+        "install_bloxstrap": "Bloxstrap installieren"
     }
 }
 
@@ -78,6 +100,8 @@ translations = {
 system_language = get_system_language()
 if system_language.startswith("es"):
     lang = translations["es_ES"]
+else if system_language.startswith("de"):
+    lang = translations["de_DE"]
 else:
     lang = translations["en_US"]
 
