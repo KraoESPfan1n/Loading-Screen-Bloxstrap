@@ -1,4 +1,4 @@
-# Loading-Screen-Bloxstrap
+# <img src="https://imgur.com/a/7YCKxBG" width="100"/> Loading-Screen-Bloxstrap
 
 Requirements:
 - Windows 10/11
