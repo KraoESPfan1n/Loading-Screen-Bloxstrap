@@ -1,4 +1,4 @@
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/7YCKxBG" data-context="false" ><a href="//imgur.com/a/7YCKxBG"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<img src="https://media.discordapp.net/attachments/1260642405695361066/1264387411060719656/image.png"/>
 # Loading-Screen-Bloxstrap
 
 Requirements:
