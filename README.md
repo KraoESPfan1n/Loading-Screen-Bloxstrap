@@ -14,9 +14,19 @@
 
 Requirements:
 - Windows 10/11
+- [PowerShell](https://docs.microsoft.com/en-us/powershell/)
 - [Python V3.x for the installer](https://www.python.org/downloads/)
 - [VLC Media Player](https://www.videolan.org/vlc/)
 - [Bloxstrap (obviously)](https://github.com/pizzaboxer/bloxstrap)
+
+
+[![Windows 11](https://img.shields.io/badge/Windows-11-blue)](https://www.microsoft.com/en-us/software-download/windows10)
+[![Windows 10](https://img.shields.io/badge/Windows-10-blue)](https://www.microsoft.com/software-download/windows11)
+[![PowerShell](https://img.shields.io/badge/PowerShell-latest-blue)](https://docs.microsoft.com/en-us/powershell/)
+[![Python](https://img.shields.io/badge/Python-latest-Yellow)](https://www.python.org/downloads/)
+[![VLC](https://img.shields.io/badge/VLC-latest-orange)](https://www.videolan.org/vlc/index.html)
+[![Bloxstrap](https://img.shields.io/badge/Bloxtrap-latest-591ac7)](https://github.com/pizzaboxer/bloxstrap)
+
 ---
 <details>
 <summary>Python Installer User Guide</summary>
@@ -25,15 +35,19 @@ Requirements:
 
 Before running the script, ensure you have the necessary libraries installed. Use the following command to install them if they are not already available:
 
+
 ```
 pip install pillow
 ```
+
+[![Pillow](https://img.shields.io/badge/Pillow-latest-Yellow)](https://pillow.readthedocs.io/en/stable/installation/basic-installation.html)
 
 ## Steps to use `installer.py`
 
 ### Preparation
 
-- Ensure you have the `installer.py` file on your computer.- Have a video file ready that you want to use as a loading screen.
+- Ensure you have the [![Installer](https://img.shields.io/badge/installer.py-e6c912)](https://github.com/KraoESPfan1n/Loading-Screen-Bloxstrap/releases/tag/Release) file on your computer.
+- Have a video file ready that you want to use as a loading screen.
 
 ### Running the Script
 
@@ -70,7 +84,7 @@ pip install pillow
 For the people that just don't like it the easy way...
 
 # Script Setup
-1. Download the "Intro.ps1" file
+1. Download the [![intro](https://img.shields.io/badge/intro.ps1-7b36c9)](https://github.com/KraoESPfan1n/Loading-Screen-Bloxstrap/releases/tag/Release) file
 2. Open it in the text editor of your choice
 3. At the top, replace [INSERT VIDEO PATH] with the file path to your video
 4. If your VLC Media Player is in (x86) then add it into the $vlcPath vairable
@@ -91,7 +105,7 @@ For the people that just don't like it the easy way...
 
 Once you're done with the installation, test it out and enjoy!
 
-For any questions, please create a new issue at the top.
+For any questions, please create a new [![Issue](https://img.shields.io/badge/issue-ff0000)](https://github.com/KraoESPfan1n/Loading-Screen-Bloxstrap/issues) at the top.
 
 In the issue please explain what's happening / the issue that you're experiencing.
 
