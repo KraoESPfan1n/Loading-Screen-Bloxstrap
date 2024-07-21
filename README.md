@@ -1,4 +1,7 @@
-<img src="https://i.ibb.co/bgsKbPF/image.png">
+<p align="center">
+    <img src="https://i.ibb.co/bgsKbPF/image.png" width="640" height="360">
+</p>
+
 # Loading-Screen-Bloxstrap
 
 Requirements:
