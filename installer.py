@@ -173,9 +173,9 @@ $hwnd = [User32]::GetForegroundWindow()
 $fullscreen = $true
 # VLC arguments
 if ($fullscreen) {{
-    $vlcArgs = "--fullscreen --play-and-exit `"$videoPath`""
+    $vlcArgs = "--fullscreen --play-and-exit --no-osd `"$videoPath`""
 }} else {{
-    $vlcArgs = "--play-and-exit `"$videoPath`""
+    $vlcArgs = "--play-and-exit --no-osd `"$videoPath`""
 }}
 # Function to check if Roblox is running
 function Is-RobloxRunning {{
