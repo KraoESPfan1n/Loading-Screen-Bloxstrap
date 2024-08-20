@@ -101,6 +101,18 @@ For the people that just don't like it the easy way...
 </details>
 
 ---
+<details>
+<summary>Force disable OSD / Subtitle</summary>
+
+# Configuration Steps for VLC:
+1. Open VLC Media Player.
+2. Go to the Tools menu at the top and select Preferences.
+3. In the Preferences window, click on the Subtitles / OSD tab.
+4. Uncheck the option that says Show media title on video start.
+5. Click Save to apply the changes.
+</details>
+
+---
 
 <!-- End of README -->
 
