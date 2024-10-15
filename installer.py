@@ -4,7 +4,7 @@ import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 from datetime import datetime
 import subprocess
-import locale
+from locale import getlocale
 import webbrowser
 import urllib.request
 import io
@@ -13,7 +13,7 @@ from PIL import Image, ImageTk
 # Función para obtener el idioma del sistema
 def get_system_language():
     try:
-        return locale.getdefaultlocale()[0]
+        return getlocale()
     except:
         return 'en_US'
 
