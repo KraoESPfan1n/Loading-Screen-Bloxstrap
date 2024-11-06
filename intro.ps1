@@ -16,6 +16,22 @@ public class User32 {
 }
 "@
 
+#  _______      _________      _____       ______     _
+# / _____ \    |____ ____|    / ___ \     | ____ \   | |
+#/ /     \_\       | |       / /   \ \    | |   \ \  | |
+#| |               | |      / /     \ \   | |   | |  | |
+#\ \______         | |      | |     | |   | |___/ /  | |
+# \______ \        | |      | |     | |   |  ____/   | |
+#        \ \       | |      | |     | |   | |        | |
+# _      | |       | |      \ \     / /   | |        |_|
+#\ \_____/ /       | |       \ \___/ /    | |         _
+# \_______/        |_|        \_____/     |_|        |_|
+
+# Stop!
+# If someone instructed you to edit this code with another, it is not advisable to do so.
+# Please do not edit the code unless you are certain of what you are doing. 
+# If you need something in the code to be modified, please inform the creators.
+
 # Get the handle of the current PowerShell window
 $hwnd = [User32]::GetForegroundWindow()
 
