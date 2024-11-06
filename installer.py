@@ -10,6 +10,23 @@ import urllib.request
 import io
 from PIL import Image, ImageTk
 
+#  _______      _________      _____       ______     _
+# / _____ \    |____ ____|    / ___ \     | ____ \   | |
+#/ /     \_\       | |       / /   \ \    | |   \ \  | |
+#| |               | |      / /     \ \   | |   | |  | |
+#\ \______         | |      | |     | |   | |___/ /  | |
+# \______ \        | |      | |     | |   |  ____/   | |
+#        \ \       | |      | |     | |   | |        | |
+# _      | |       | |      \ \     / /   | |        |_|
+#\ \_____/ /       | |       \ \___/ /    | |         _
+# \_______/        |_|        \_____/     |_|        |_|
+
+# Stop!
+# If someone instructed you to edit this code with another, it is not advisable to do so.
+# Please do not edit the code unless you are certain of what you are doing. 
+# If you need something in the code to be modified, please inform the creators.
+
+
 # Función para obtener el idioma del sistema
 def get_system_language():
     try:
