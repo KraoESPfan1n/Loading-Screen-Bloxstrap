@@ -30,9 +30,11 @@ from PIL import Image, ImageTk
 # Función para obtener el idioma del sistema
 def get_system_language():
     try:
-        return getlocale()
+        # Extraer el primer valor de la tupla
+        return getlocale()[0]
     except:
         return 'en_US'
+
 
 # Función para verificar si se necesita el argumento "powershell"
 def check_powershell_execution():
